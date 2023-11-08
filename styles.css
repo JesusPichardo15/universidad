@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free";
+}
+
+.menu button:hover {
+    background-color: #484e48;
+}
+
+.menu button.float-right {
+    margin-left: auto;
+}
+
+img {
+    margin-right: 40px;
+}
+
+.custom-text {
+    font-size: 45px;
+    color: white;
+    font-family: "verdana", sans-serif;
+    text-align: center;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+
+.centered-text {
+    text-align: right;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin-left: 0px; /* Ajustar el margen izquierdo para acercar los textos a la imagen */
+    margin-right: 1200px; /* Ajustar el margen derecho para acercar los textos a la imagen */
+}
+
+.viajar-button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0 20px 0; /* Ajuste el margen inferior */
+    transition: background-color 0.3s;
+}
+
+.viajar-button:hover {
+    background-color: #484e48;
+}
+
+.custom-title {
+    font-size: 45px;
+    color: #000000;
+    font-family: "verdana", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.custom-text2 {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: "verdana", sans-serif;
+    text-align: center;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+.custom-text3 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: "verdana", sans-serif;
+    text-align: left;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+
+.custom-title2 {
+    font-size: 30px;
+    color: #000000;
+    font-family: "verdana", sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-text4 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+
+.custom-text5 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: "verdana", sans-serif;
+    text-align: center;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+.custom-text6 {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: "verdana", sans-serif;
+    text-align: center;
+    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+    padding: 0; /* Eliminar el espacio interno de los párrafos */
+}
+
