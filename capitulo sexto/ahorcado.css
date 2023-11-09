@@ -41,26 +41,38 @@ body, html {
 }
 
 #answer{
-    padding-bottom: -5 ;
+    padding-bottom: 5px; /* Ajusta el padding según sea necesario */
 }
 
 #buttonVerify{
-    margin: 0 0 35px 0;
+    margin: 0 0 15px 0; /* Ajusta el margen según sea necesario */
 }
 
 #secretWord{
-    font-size: 50px;
-    padding-bottom: 15px;
+    font-size: 30px; /* Ajusta el tamaño de fuente según sea necesario */
+    padding-bottom: 10px; /* Ajusta el padding según sea necesario */
 }
 
 #description{
     padding-bottom: 5px;
-    font-size: 25px;
+    font-size: 20px; /* Ajusta el tamaño de fuente según sea necesario */
 }
 
 #image{
     mix-blend-mode: multiply;
 }
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #secretWord{
+        font-size: 20px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+
+    #description{
+        font-size: 15px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+}
+
 
 #advertisement{
     font-size: 15px;
