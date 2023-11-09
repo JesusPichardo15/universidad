@@ -26,7 +26,7 @@ async function sendDataDB(type){
             }
         }).then(response=>{
             if(response.data){
-                window.location.href = "segunda.html";
+                window.location.href = "Segunda.html";
                 
             }else {
                 console.log("la contraseña esta mal")
