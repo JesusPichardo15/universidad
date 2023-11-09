@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bbaeae;
+}
+
+.container {
+    text-align: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#answer{
+    padding-bottom: -5 ;
+}
+
+#buttonVerify{
+    margin: 0 0 35px 0;
+}
+
+#secretWord{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+#description{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+#image{
+    mix-blend-mode: multiply;
+}
+
+#advertisement{
+    font-size: 15px;
+}
