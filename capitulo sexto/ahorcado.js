@@ -103,7 +103,7 @@ buttonV.addEventListener("click",showLetterInSecretWord);
 function showLetterInSecretWord(){
     const secretWord = getSecretWordAndDescription()[0];
     let wordChange = getSecretWordAndDescription()[1];
-    let valueAnswer = answerPage.value;
+    let valueAnswer = answerPage.value.toLowerCase();
     let update;
     //verificar si perdiste o ganaste 
     console.log(secretWord);
