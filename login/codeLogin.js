@@ -43,11 +43,10 @@ async function sendDataDB(type){
                 password : `${password.value}`
             }
         }).then(response =>{
-            if(response.data == true){
-                console.log(response.data)
-
+               if(response.data == true){
+                advertisement.innerHTML = "El usuario ya esta registrado";
             }else{
-                console.log(response.data)
+                advertisement.innerHTML = "Se registro exitosamente"; 
             }
         })
     }
